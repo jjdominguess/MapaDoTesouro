@@ -1,7 +1,5 @@
 
-FarmTech Solutions - Modelagem de Banco de Dados
 
-Este repositório contém a modelagem de dados relacional da solução proposta pela startup fictícia **FarmTech Solutions**, focada em Agricultura Digital.
 
 Objetivo
 
