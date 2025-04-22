@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEEB2DB8-2DFF-461F-4927-2E56EF42A47B" schemaObject="9B480962-1927-58A1-6985-C5A8AD50BC44" name="SENSOR">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM565932</sourceObjSchema>
+<sourceObjName>SENSOR</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:17 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SENSOR_ID" id="837C07C9-C76A-76FF-B528-01D7B4189741">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>SENSOR</sourceObjSchema>
+<sourceObjName>SENSOR_ID</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_SENSOR_ID" id="FDC5E565-8E52-392E-7115-DC07F7ED4A57">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>SENSOR</sourceObjSchema>
+<sourceObjName>TIPO_SENSOR_ID</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="283604B8-3FDC-334E-DDDB-A839EDE9DCC1" referredColumn="3DA26C6C-8A53-2AAD-2557-63723A2D445D"/>
+</associations>
+</Column>
+<Column name="LOCAL_ID" id="018BCFEE-EC9E-FB07-4E81-7EA1CA2EBAAD">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>SENSOR</sourceObjSchema>
+<sourceObjName>LOCAL_ID</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="290E122F-CBD7-7BF0-FE9C-0D8572705806" referredColumn="CBF020CA-2EF5-D725-4877-752EA8CAC2B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E9121D34-A9BD-62BA-B886-0EFA236006FE" schemaObject="9B480962-1927-58A1-6985-C5A8AD50BC44" name="SENSOR_PK">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM565932</sourceObjSchema>
+<sourceObjName>SYS_C004789591</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:19 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="837C07C9-C76A-76FF-B528-01D7B4189741"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="743020EF-1049-89CF-EF79-38B2CC49DC97" name="FK_SENSOR_LOCAL">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:43 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="018BCFEE-EC9E-FB07-4E81-7EA1CA2EBAAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DFADAAA-687A-0098-ABC5-33863833721D" name="FK_SENSOR_TIPO_SENSOR">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:43 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDC5E565-8E52-392E-7115-DC07F7ED4A57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

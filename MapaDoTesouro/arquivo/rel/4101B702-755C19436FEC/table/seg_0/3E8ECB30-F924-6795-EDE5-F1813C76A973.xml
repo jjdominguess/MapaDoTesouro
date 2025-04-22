@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E8ECB30-F924-6795-EDE5-F1813C76A973" schemaObject="9B480962-1927-58A1-6985-C5A8AD50BC44" name="APLICACAO">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM565932</sourceObjSchema>
+<sourceObjName>APLICACAO</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:17 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="APLICACAO_ID" id="8F143C50-3908-91E3-AA54-9A786FB29C4D">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>APLICACAO</sourceObjSchema>
+<sourceObjName>APLICACAO_ID</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_HORA" id="99A1F7AA-2399-805F-08C3-71DA30747D37">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>APLICACAO</sourceObjSchema>
+<sourceObjName>DATA_HORA</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTIDADE" id="9688BC52-308B-C5BB-5724-DD7FC776F074">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>APLICACAO</sourceObjSchema>
+<sourceObjName>QUANTIDADE</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_APLICACAO_ID" id="53DFE86F-599E-F48C-1B69-3B47CF55401D">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>APLICACAO</sourceObjSchema>
+<sourceObjName>TIPO_APLICACAO_ID</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E333F2EB-F269-52C4-5EED-A5F087BF5F68" referredColumn="05F4840D-8DE7-3D14-2488-F3F0165EEBD8"/>
+</associations>
+</Column>
+<Column name="CULTURA_ID" id="0FC7297B-655E-4547-9DD0-6A2E036FA59D">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>APLICACAO</sourceObjSchema>
+<sourceObjName>CULTURA_ID</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7656F58B-9147-ED3A-3FA9-F723408F4638" referredColumn="36276B6C-743B-293C-5D27-7317178C2D63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A14344FB-D7A1-C15B-690B-97DD87AF0BA1" schemaObject="9B480962-1927-58A1-6985-C5A8AD50BC44" name="APLICACAO_PK">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM565932</sourceObjSchema>
+<sourceObjName>SYS_C004789598</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:19 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F143C50-3908-91E3-AA54-9A786FB29C4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="327E7D4F-D209-C6E3-8267-74CC0F9500DD" name="FK_APLICACAO_CULTURA">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:43 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FC7297B-655E-4547-9DD0-6A2E036FA59D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0D30969-B52C-7293-0436-5A67A9AA0298" name="FK_APLICACAO_TIPO">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:43 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53DFE86F-599E-F48C-1B69-3B47CF55401D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

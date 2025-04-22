@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A223FE99-70A8-2AEF-C1BF-8402F8C16C5A" containerWithKeyObject="A358D3D4-3751-98C0-AD7B-7C773A80E71F" localFKIndex="12184C90-77B0-286C-9565-A16623B9786A" name="FK_LEITURA_CULTURA">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM565932</sourceObjSchema>
+<sourceObjName>FK_LEITURA_CULTURA</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:43 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<referredTableLongName>RM565932.CULTURA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>808E84B3-E92D-57E7-3FB3-68CB8E25D00B</referredTableID>
+<keyObject>F4C00954-4050-794B-9644-0C506FA255F0</keyObject>
+<referredKeyID>F4C00954-4050-794B-9644-0C506FA255F0</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CULTURA_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

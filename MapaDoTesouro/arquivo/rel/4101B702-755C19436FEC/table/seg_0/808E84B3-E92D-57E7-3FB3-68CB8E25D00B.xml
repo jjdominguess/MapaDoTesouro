@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="808E84B3-E92D-57E7-3FB3-68CB8E25D00B" schemaObject="9B480962-1927-58A1-6985-C5A8AD50BC44" name="CULTURA">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM565932</sourceObjSchema>
+<sourceObjName>CULTURA</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:17 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CULTURA_ID" id="36276B6C-743B-293C-5D27-7317178C2D63">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>CULTURA</sourceObjSchema>
+<sourceObjName>CULTURA_ID</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME_CULTURA" id="85AD4959-1F30-8F09-AADF-F22B6AE3FAE4">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>CULTURA</sourceObjSchema>
+<sourceObjName>NOME_CULTURA</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_SOLO" id="5B1D9AD3-BFFD-26A3-C32A-037E72264D4E">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>CULTURA</sourceObjSchema>
+<sourceObjName>TIPO_SOLO</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CICLO_DIAS" id="E2117ED9-D4F9-1BF0-7C84-607F825B2AE5">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>CULTURA</sourceObjSchema>
+<sourceObjName>CICLO_DIAS</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4C00954-4050-794B-9644-0C506FA255F0" schemaObject="9B480962-1927-58A1-6985-C5A8AD50BC44" name="CULTURA_PK">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM565932</sourceObjSchema>
+<sourceObjName>SYS_C004789594</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:19 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36276B6C-743B-293C-5D27-7317178C2D63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

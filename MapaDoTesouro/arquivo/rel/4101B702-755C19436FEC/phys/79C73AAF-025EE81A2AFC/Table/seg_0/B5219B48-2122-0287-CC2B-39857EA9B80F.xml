@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="LOCAL" directorySegmentName="seg_0" id="B5219B48-2122-0287-CC2B-39857EA9B80F">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:17 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<schemaObject>9B480962-1927-58A1-6985-C5A8AD50BC44</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0C8C1CDF-1AFE-BAAE-4E31-A59FF358BE63</segment>
+<tableSpace>A95780EE-0CB0-868B-D4D8-5C567E1AC9F4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DESCRICAO_LOCAL" id="08E8D4E8-3007-680E-0895-8DB8F224F2F8">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCAL_ID" id="CBF020CA-2EF5-D725-4877-752EA8CAC2B9">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LOCAL_PK" id="EC02B2FF-3E42-AC7B-A06E-83F64D35B0AD">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:31 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<schemaObject>9B480962-1927-58A1-6985-C5A8AD50BC44</schemaObject>
+<segment>19B89163-E5E6-F02A-D80C-4966E2B0D258</segment>
+<tableSpace>A95780EE-0CB0-868B-D4D8-5C567E1AC9F4</tableSpace>
+<indexSegment>19B89163-E5E6-F02A-D80C-4966E2B0D258</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

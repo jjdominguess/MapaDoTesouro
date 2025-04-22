@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5219B48-2122-0287-CC2B-39857EA9B80F" schemaObject="9B480962-1927-58A1-6985-C5A8AD50BC44" name="LOCAL">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM565932</sourceObjSchema>
+<sourceObjName>LOCAL</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:17 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOCAL_ID" id="CBF020CA-2EF5-D725-4877-752EA8CAC2B9">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>LOCAL</sourceObjSchema>
+<sourceObjName>LOCAL_ID</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO_LOCAL" id="08E8D4E8-3007-680E-0895-8DB8F224F2F8">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>LOCAL</sourceObjSchema>
+<sourceObjName>DESCRICAO_LOCAL</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC02B2FF-3E42-AC7B-A06E-83F64D35B0AD" schemaObject="9B480962-1927-58A1-6985-C5A8AD50BC44" name="LOCAL_PK">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM565932</sourceObjSchema>
+<sourceObjName>SYS_C004789588</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:19 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBF020CA-2EF5-D725-4877-752EA8CAC2B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

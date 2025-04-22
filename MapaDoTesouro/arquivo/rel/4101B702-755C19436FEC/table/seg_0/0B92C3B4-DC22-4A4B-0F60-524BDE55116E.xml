@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B92C3B4-DC22-4A4B-0F60-524BDE55116E" schemaObject="9B480962-1927-58A1-6985-C5A8AD50BC44" name="TIPO_SENSOR">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM565932</sourceObjSchema>
+<sourceObjName>TIPO_SENSOR</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:17 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIPO_SENSOR_ID" id="3DA26C6C-8A53-2AAD-2557-63723A2D445D">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>TIPO_SENSOR</sourceObjSchema>
+<sourceObjName>TIPO_SENSOR_ID</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRICAO_TIPO" id="5A8337FD-ABFF-364B-B23D-E51DD643FDA4">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>TIPO_SENSOR</sourceObjSchema>
+<sourceObjName>DESCRICAO_TIPO</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55672BAF-91DF-0A39-4F16-BD2F6B47564C" schemaObject="9B480962-1927-58A1-6985-C5A8AD50BC44" name="TIPO_SENSOR_PK">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM565932</sourceObjSchema>
+<sourceObjName>SYS_C004789589</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:19 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DA26C6C-8A53-2AAD-2557-63723A2D445D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

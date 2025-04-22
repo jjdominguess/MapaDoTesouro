@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="283604B8-3FDC-334E-DDDB-A839EDE9DCC1" containerWithKeyObject="DEEB2DB8-2DFF-461F-4927-2E56EF42A47B" localFKIndex="7DFADAAA-687A-0098-ABC5-33863833721D" name="FK_SENSOR_TIPO_SENSOR">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM565932</sourceObjSchema>
+<sourceObjName>FK_SENSOR_TIPO_SENSOR</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:43 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<referredTableLongName>RM565932.TIPO_SENSOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0B92C3B4-DC22-4A4B-0F60-524BDE55116E</referredTableID>
+<keyObject>55672BAF-91DF-0A39-4F16-BD2F6B47564C</keyObject>
+<referredKeyID>55672BAF-91DF-0A39-4F16-BD2F6B47564C</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>TIPO_SENSOR_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

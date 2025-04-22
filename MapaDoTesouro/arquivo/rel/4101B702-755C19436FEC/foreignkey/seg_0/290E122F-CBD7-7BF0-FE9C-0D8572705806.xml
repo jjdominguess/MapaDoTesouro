@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="290E122F-CBD7-7BF0-FE9C-0D8572705806" containerWithKeyObject="DEEB2DB8-2DFF-461F-4927-2E56EF42A47B" localFKIndex="743020EF-1049-89CF-EF79-38B2CC49DC97" name="FK_SENSOR_LOCAL">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM565932</sourceObjSchema>
+<sourceObjName>FK_SENSOR_LOCAL</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:43 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<referredTableLongName>RM565932.LOCAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B5219B48-2122-0287-CC2B-39857EA9B80F</referredTableID>
+<keyObject>EC02B2FF-3E42-AC7B-A06E-83F64D35B0AD</keyObject>
+<referredKeyID>EC02B2FF-3E42-AC7B-A06E-83F64D35B0AD</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>LOCAL_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

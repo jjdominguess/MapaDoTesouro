@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CULTURA" directorySegmentName="seg_0" id="808E84B3-E92D-57E7-3FB3-68CB8E25D00B">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:17 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<schemaObject>9B480962-1927-58A1-6985-C5A8AD50BC44</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0C8C1CDF-1AFE-BAAE-4E31-A59FF358BE63</segment>
+<tableSpace>A95780EE-0CB0-868B-D4D8-5C567E1AC9F4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CULTURA_ID" id="36276B6C-743B-293C-5D27-7317178C2D63">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO_SOLO" id="5B1D9AD3-BFFD-26A3-C32A-037E72264D4E">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOME_CULTURA" id="85AD4959-1F30-8F09-AADF-F22B6AE3FAE4">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CICLO_DIAS" id="E2117ED9-D4F9-1BF0-7C84-607F825B2AE5">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CULTURA_PK" id="F4C00954-4050-794B-9644-0C506FA255F0">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:31 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<schemaObject>9B480962-1927-58A1-6985-C5A8AD50BC44</schemaObject>
+<segment>19B89163-E5E6-F02A-D80C-4966E2B0D258</segment>
+<tableSpace>A95780EE-0CB0-868B-D4D8-5C567E1AC9F4</tableSpace>
+<indexSegment>19B89163-E5E6-F02A-D80C-4966E2B0D258</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

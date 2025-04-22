@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A358D3D4-3751-98C0-AD7B-7C773A80E71F" schemaObject="9B480962-1927-58A1-6985-C5A8AD50BC44" name="LEITURA_SENSOR">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM565932</sourceObjSchema>
+<sourceObjName>LEITURA_SENSOR</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:17 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LEITURA_ID" id="C4E61B87-4A7E-8FE5-2214-D60AF624CCA1">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>LEITURA_SENSOR</sourceObjSchema>
+<sourceObjName>LEITURA_ID</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_HORA" id="0DF73A82-DF76-A790-0685-AF1686D3564F">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>LEITURA_SENSOR</sourceObjSchema>
+<sourceObjName>DATA_HORA</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VALOR" id="98CF0F50-F0B0-79F2-E287-BAAC4CDA8160">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>LEITURA_SENSOR</sourceObjSchema>
+<sourceObjName>VALOR</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SENSOR_ID" id="F9575705-C209-0CC2-5794-0FBA59A4341F">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>LEITURA_SENSOR</sourceObjSchema>
+<sourceObjName>SENSOR_ID</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D17FA488-AC08-23FD-873F-B1798CA2215D" referredColumn="837C07C9-C76A-76FF-B528-01D7B4189741"/>
+</associations>
+</Column>
+<Column name="CULTURA_ID" id="E5C9787C-A8F4-62B1-35EC-3700E1E80B7B">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>LEITURA_SENSOR</sourceObjSchema>
+<sourceObjName>CULTURA_ID</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A223FE99-70A8-2AEF-C1BF-8402F8C16C5A" referredColumn="36276B6C-743B-293C-5D27-7317178C2D63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13ADB2BC-13DE-75B4-FDAB-4D30FF16C37E" schemaObject="9B480962-1927-58A1-6985-C5A8AD50BC44" name="LEITURA_SENSOR_PK">
+<sourceConnName>fiap</sourceConnName>
+<sourceObjSchema>RM565932</sourceObjSchema>
+<sourceObjName>SYS_C004789595</sourceObjName>
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:19 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4E61B87-4A7E-8FE5-2214-D60AF624CCA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12184C90-77B0-286C-9565-A16623B9786A" name="FK_LEITURA_CULTURA">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:43 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5C9787C-A8F4-62B1-35EC-3700E1E80B7B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B16D46B-0D36-2C9A-DEA2-CC8C8518BA18" name="FK_LEITURA_SENSOR">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:43 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9575705-C209-0CC2-5794-0FBA59A4341F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

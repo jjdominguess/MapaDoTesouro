@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TIPO_APLICACAO" directorySegmentName="seg_0" id="2BF7099A-D21F-0B80-3505-622333D4C8AF">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:17 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<schemaObject>9B480962-1927-58A1-6985-C5A8AD50BC44</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0C8C1CDF-1AFE-BAAE-4E31-A59FF358BE63</segment>
+<tableSpace>A95780EE-0CB0-868B-D4D8-5C567E1AC9F4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TIPO_APLICACAO_ID" id="05F4840D-8DE7-3D14-2488-F3F0165EEBD8">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRICAO_APLICACAO" id="BD77D529-1DAF-718F-90CA-F65A693E4C68">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:18 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TIPO_APLICACAO_PK" id="FA77AE74-A662-5926-5B70-9BF39784F0B6">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:41:31 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<schemaObject>9B480962-1927-58A1-6985-C5A8AD50BC44</schemaObject>
+<segment>19B89163-E5E6-F02A-D80C-4966E2B0D258</segment>
+<tableSpace>A95780EE-0CB0-868B-D4D8-5C567E1AC9F4</tableSpace>
+<indexSegment>19B89163-E5E6-F02A-D80C-4966E2B0D258</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

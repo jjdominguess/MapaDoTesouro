@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="arquivo" id="8E90D1E3-C745-08E4-1BA4-BCC67B954027" version="3.5">
+<createdBy>muril</createdBy>
+<createdTime>2025-04-21 23:36:03 UTC</createdTime>
+<ownerDesignName>arquivo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8E90D1E3-C745-08E4-1BA4-BCC67B954027</designId>
+</OSDM_Design>
